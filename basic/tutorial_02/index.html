@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>基本練習</title>
+
+    <style>
+        /* CSS */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7680a;
+            color: #2572d8;
+            padding: 20px;
+            text-align: center;
+        margin: 0;
+        }
+       
+       .myButton {
+        position: absolute;
+    width: 200px;
+    margin-left: -100px;
+    bottom: 30px;
+    cursor: pointer;
+
+       }
+
+       #imgDiv{
+        position:absolute;
+    
+    left: 50%;
+    margin-left: -125px;
+
+    top: 50%;
+    margin-top: -150px;
+    
+    
+    width: 250px;
+    height: 300px;
+    background-color: red;
+       }
+
+       img {
+        max-width: 100%;
+        height: auto;
+        
+       }
+        
+
+    </style>
+
+
+</head>
+<body>
+    
+    文學院迷宮大挑戰
+    <BR>
+
+    
+
+    <div id="imgDiv">
+    <img src="./images/centerimage.jpg">
+    </div>
+    <button class="myButton" onclick="alert('按鈕被點擊！')">返回首要</button>
+    
+    <script>
+        // JavaScript 內嵌在這裡
+        // 宣告變數
+        let name = "Alice"; // 可以更改
+        const age = 25;     // 不可更改
+        var city = "Taipei"; // 可更改 (舊方式)
+
+        // 顯示在控制台
+        console.log("Name:", name);
+        console.log("Age:", age);
+        console.log("City:", city);
+
+        name = "Marco";
+        console.log("Name:", name);
+
+        greet("Ace");
+        greet("name");
+        greet("Sabo");
+
+        function greet(who) {
+        console.log("HI," + who + "! ")
+        }
+
+        function goPage(){
+        window.location.href = "https://trinitysin.github.io/basic/tutorial_02/index.html";
+        }
+
+    </script>
+   
+
+</body>
+</html>
