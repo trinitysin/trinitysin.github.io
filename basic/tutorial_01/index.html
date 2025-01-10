@@ -61,7 +61,7 @@
     <div id="imgDiv">
     <img src="./images/centerimage.jpg">
     </div>
-    <button class="myButton" onclick="alert('按鈕被點擊！')">點我開始</button>
+    <button class="myButton" onclick="goPage()">點我開始</button>
     
     <script>
         // JavaScript 內嵌在這裡
@@ -79,12 +79,17 @@
         console.log("Name:", name);
 
         greet("Ace");
-        greet(name);
+        greet("name");
         greet("Sabo");
 
         function greet(who) {
-        console.log("HI," + name + "! ")
+        console.log("HI," + who + "! ")
         }
+
+        function goPage(){
+        window.location.href = "https://trinitysin.github.io/basic/tutorial_02/index.html";
+        }
+
 
     </script>
    
