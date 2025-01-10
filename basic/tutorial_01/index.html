@@ -69,11 +69,22 @@
         let name = "Alice"; // 可以更改
         const age = 25;     // 不可更改
         var city = "Taipei"; // 可更改 (舊方式)
-        
+
         // 顯示在控制台
         console.log("Name:", name);
         console.log("Age:", age);
         console.log("City:", city);
+
+        name = "Marco";
+        console.log("Name:", name);
+
+        greet("Ace");
+        greet(name);
+        greet("Sabo");
+
+        function greet(who) {
+        console.log("HI," + name + "! ")
+        }
 
     </script>
    
