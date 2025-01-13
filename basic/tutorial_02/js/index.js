@@ -39,3 +39,7 @@ marker3.on('click', function () {
     //infoDiv.textContent = '你點擊了: 華山 ';
     map.panTo([25.044919992874622, 121.53195354429714]); // 平移到台北 101
 });
+
+function goPage(){
+    window.location.href = "https://mira-ar.n010.app/show/XGJFpE";
+}
