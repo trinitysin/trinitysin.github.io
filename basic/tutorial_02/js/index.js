@@ -41,5 +41,5 @@ marker3.on('click', function () {
 });
 
 function goPage(){
-    window.location.href = "https://mira-ar.n010.app/show/XGJFpE";
+    window.location.href = "https://mira-ar.n010.app/show/ergzJM";
 }
