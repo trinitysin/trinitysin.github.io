@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>結果</title>
-        <link rel="stylesheet" href="./css/main.css">
+        <link rel="stylesheet" href="./css/main2.css">
         <script src="./js/qrcode.js"></script>
     </head>
     <body>
@@ -20,8 +20,7 @@
         </div> 
         
         <button id="returnHomeButton" onclick="goPage()">返回首頁</button>
-        <button class="myButton">返回首頁</button>
-
+        
         <script>
             var qrcode = new QRCode("qrcode", {
                 text: "ntnu",
@@ -31,6 +30,11 @@
                 colorLight : "#ffffff",
                 correctLevel : QRCode.CorrectLevel.H
             });
+
+            function goPage(){
+        window.location.href = "https://trinitysin.github.io/basic/tutorial_03/index.html";
+        }
+
         </script>
         
     </body>
